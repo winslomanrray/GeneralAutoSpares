@@ -1,0 +1,40 @@
+body{
+    font-family:Arial;
+    background:#f4f4f4;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+.form{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+input{
+    padding:10px;
+}
+
+button{
+    padding:10px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.product{
+    background:white;
+    padding:10px;
+    margin-top:10px;
+    display:flex;
+    justify-content:space-between;
+}

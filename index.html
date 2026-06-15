@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auto Spare Shop USA</title>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>🚗 Auto Spare Shop USA</h1>
+
+  <div class="contact-bar">
+    <p>📞 +1 480-696-8108</p>
+    <p>📱 WhatsApp: +1 (508) 860-9417</p>
+    <p>📧 winslomanraymond@gmail.com</p>
+  </div>
+
+  <div class="search-cart">
+    <input type="text" id="search" placeholder="Search products..."/>
+    <button id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button>
+  </div>
+</header>
+
+<!-- HERO (LOCAL JEEP IMAGE FIX) -->
+<section class="hero hero-banner">
+
+  <img 
+    src="images/jeep.jpg"
+    alt="Jeep Wrangler"
+    class="hero-img"
+  />
+
+  <div class="hero-text">
+    <h2>Premium Jeep & Auto Parts</h2>
+    <p>Wheels • Tires • Lights • Accessories • Vehicles</p>
+  </div>
+
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories">
+  <button onclick="displayProducts(products)">All</button>
+  <button onclick="filterCategory('Wheels')">Wheels</button>
+  <button onclick="filterCategory('Tires')">Tires</button>
+  <button onclick="filterCategory('Lights')">Lights</button>
+  <button onclick="filterCategory('Jeep Parts')">Jeep Parts</button>
+  <button onclick="filterCategory('Accessories')">Accessories</button>
+  <button onclick="filterCategory('Vehicles')">Vehicles</button>
+</section>
+
+<!-- PRODUCTS -->
+<section>
+  <div id="product-list"></div>
+</section>
+
+<!-- PAYMENT METHODS -->
+<section class="payments">
+  <h2>💳 Payment Methods</h2>
+
+  <div class="payment-grid">
+
+    <div class="payment-card">
+      <img src="https://cdn.simpleicons.org/paypal" alt="PayPal">
+      <p>PayPal</p>
+    </div>
+
+    <div class="payment-card">
+      <img src="https://cdn.simpleicons.org/cashapp" alt="Cash App">
+      <p>Cash App</p>
+    </div>
+
+    <div class="payment-card">
+      <img src="https://cdn.simpleicons.org/zelle" alt="Zelle">
+      <p>Zelle</p>
+    </div>
+
+    <div class="payment-card">
+      <img src="https://cdn.simpleicons.org/applepay" alt="Apple Pay">
+      <p>Apple Pay</p>
+    </div>
+
+    <div class="payment-card">
+      <img src="https://cdn.simpleicons.org/visa" alt="Chime">
+      <p>Chime</p>
+    </div>
+
+    <div class="payment-card">
+      <img src="https://cdn.simpleicons.org/googlepay" alt="Gift Card">
+      <p>Gift Card</p>
+    </div>
+
+    <div class="payment-card">
+      <img src="https://cdn.simpleicons.org/bankofamerica" alt="US Bank">
+      <p>US Bank</p>
+    </div>
+
+    <div class="payment-card">
+      <img src="https://cdn.simpleicons.org/mastercard" alt="Australia Bank">
+      <p>Australia Bank</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section">
+  <h2>Contact Us</h2>
+
+  <p>Email: winslomanraymond@gmail.com</p>
+
+  <p>
+    Address:<br/>
+    55 Clark St,<br/>
+    Brooklyn, NY 11201, USA 🇺🇸
+  </p>
+
+
+  <a href="https://wa.me/15088609417" target="_blank">
+    💬 Chat on WhatsApp
+  </a>
+</section>
+
+<!-- CART MODAL -->
+<div id="cart-modal" class="cart-modal">
+
+  <div class="cart-content">
+    <h2>Your Cart</h2>
+
+    <div id="cart-items"></div>
+
+    <h3>Total: $<span id="cart-total">0</span></h3>
+
+    <button onclick="checkoutCart()" class="checkout-btn">
+      Checkout via WhatsApp
+    </button>
+
+    <button onclick="closeCart()" class="close-btn">
+      Close
+    </button>
+  </div>
+
+</div>
+
+<!-- SCRIPTS -->
+<script src="products.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
