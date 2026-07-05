@@ -1,4 +1,12 @@
-﻿let products = [
+let products = 
+name: Doors Side Steps Nerf Bars 
+price: $319.99
+ABS Running Boards Fit
+2018-2026 (TJ, JK, JL)
+Jeep Wrangler
+
+
+[
   // 🛞 WHEELS & RIMS
   {
     name: "Apocalypse GEN 3 Bronze Rim (22x14 Jeep Wrangler / Gladiator)",
