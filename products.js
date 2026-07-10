@@ -9,13 +9,7 @@ let products = [
     image: "images/apocalypse-gen3-bronze-rim.jpg"
   },
   
-  {
-    id: 3,
-    name: "Genuine Mopar Alloy Wheel",
-    price: 781.25,
-    category: "Wheels",
-    image: "images/genuine-mopar-alloy-wheel.jpg"
-  },
+  
   {
     id: 4,
     name: "Black Rhino Arsenal Wheel 17x9.5",
