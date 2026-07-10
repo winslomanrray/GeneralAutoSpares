@@ -8,13 +8,7 @@ let products = [
     details: "Ultimate Offset | Offroad Rim",
     image: "images/apocalypse-gen3-bronze-rim.jpg"
   },
-  {
-    id: 2,
-    name: "Apocalypse 5-Spoke Wheel Silver (Jeep Gladiator / Wrangler 5 Lug)",
-    price: 599.00,
-    category: "Wheels",
-    image: "images/apocalypse-5-spoke-wheel.jpg"
-  },
+  
   {
     id: 3,
     name: "Genuine Mopar Alloy Wheel",
@@ -45,13 +39,7 @@ let products = [
   },
 
   // 🚙 TIRES
-  {
-    id: 7,
-    name: "37 Inch Offroad Tire 37/13.5R20",
-    price: 599.00,
-    category: "Tires",
-    image: "images/37-inch-offroad-tire.jpg"
-  },
+  
   {
     id: 8,
     name: "Mud Claw MTX 33x12.50R18 Tire",
