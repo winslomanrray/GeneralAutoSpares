@@ -10,14 +10,6 @@ let products = [
     image: "images/apocalypse-gen3-bronze-rim.jpg"
   },
   
-  {
-  id: 2,
-  name: "2002 Ford F-150 18x9 OEM Rim Black & Red",
-  price: 314.80,
-  category: "Wheels",
-  details: "OEM 18x9 wheel for 2002 Ford F-150. Black and Red finish.",
-  image: "images/ford-f150-oem-rim.jpg"
-}
 
   {
     id: 4,
