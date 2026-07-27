@@ -18,6 +18,7 @@ let products = [
     category: "Wheels",
     image: "images/black-rhino-arsenal-wheel.jpg"
   },
+  
   {
     id: 5,
     name: "17x9.5 Black Rhino Arsenal Wheel (5x127)",
@@ -25,6 +26,7 @@ let products = [
     category: "Wheels",
     image: "images/black-rhino-wheel.jpg"
   },
+  
   {
     id: 6,
     name: "Chrysler Pacifica 18 Inch Alloy Rim",
