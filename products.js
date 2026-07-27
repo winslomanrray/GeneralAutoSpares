@@ -9,13 +9,16 @@ let products = [
     details: "Ultimate Offset | Offroad Rim",
     image: "images/apocalypse-gen3-bronze-rim.jpg"
   },
+
   {
-  id: 2,
-  name: "2002 Ford F-150 18x9 OEM Rim Black & Red",
-  price: 314.80,
-  category: "Wheels",
-  image: "images/ford-f150-oem-rim.jpg"
-},
+    id: 2,
+    name: "2002 Ford F-150 18x9 OEM Rim Black & Red",
+    price: 314.80,
+    category: "Wheels",
+    details: "OEM 18x9 wheel for 2002 Ford F-150. Black and Red finish.",
+    image: "images/2002-ford-f150-18x9-oem-rim-black-red.jpg"
+  },
+
   {
     id: 4,
     name: "Black Rhino Arsenal Wheel 17x9.5",
@@ -23,7 +26,6 @@ let products = [
     category: "Wheels",
     image: "images/black-rhino-arsenal-wheel.jpg"
   },
-  
   {
     id: 5,
     name: "17x9.5 Black Rhino Arsenal Wheel (5x127)",
@@ -31,7 +33,6 @@ let products = [
     category: "Wheels",
     image: "images/black-rhino-wheel.jpg"
   },
-  
   {
     id: 6,
     name: "Chrysler Pacifica 18 Inch Alloy Rim",
