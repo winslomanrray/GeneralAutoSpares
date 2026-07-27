@@ -15,7 +15,7 @@ let products = [
     price: 314.80,
     category: "Wheels",
     details: "OEM 18x9 wheel for 2002 Ford F-150. Black and Red finish.",
-    image: "images/2002-ford-f150-18x9-oem-rim-black-red.jpg"
+    image: "images/ford-f150-oem-rim.jpg"
   },
 
   {
