@@ -9,6 +9,14 @@ let products = [
     details: "Ultimate Offset | Offroad Rim",
     image: "images/apocalypse-gen3-bronze-rim.jpg"
   },
+  {
+  id: 2,
+  name: "2002 Ford F-150 18x9 OEM Rim Black & Red",
+  price: 314.80,
+  category: "Wheels",
+  image: "images/ford-f150-oem-rim.jpg"
+}
+
   
 
   {
