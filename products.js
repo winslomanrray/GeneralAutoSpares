@@ -1,3 +1,4 @@
+
 let products = [
   // 🛞 WHEELS & RIMS
   {
@@ -8,8 +9,16 @@ let products = [
     details: "Ultimate Offset | Offroad Rim",
     image: "images/apocalypse-gen3-bronze-rim.jpg"
   },
-  
-  
+
+  {
+    id: 2,
+    name: "2002 Ford F-150 18x9 OEM Rim Black & Red",
+    price: 314.80,
+    category: "Wheels",
+    details: "OEM 18x9 wheel for 2002 Ford F-150. Black and Red finish.",
+    image: "images/2002-ford-f150-18x9-oem-rim-black-red.jpg"
+  },
+
   {
     id: 4,
     name: "Black Rhino Arsenal Wheel 17x9.5",
@@ -33,7 +42,6 @@ let products = [
   },
 
   // 🚙 TIRES
-  
   {
     id: 8,
     name: "Mud Claw MTX 33x12.50R18 Tire",
