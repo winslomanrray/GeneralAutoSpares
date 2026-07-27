@@ -15,10 +15,7 @@ let products = [
   price: 314.80,
   category: "Wheels",
   image: "images/ford-f150-oem-rim.jpg"
-}
-
-  
-
+},
   {
     id: 4,
     name: "Black Rhino Arsenal Wheel 17x9.5",
